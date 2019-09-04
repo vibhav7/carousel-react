@@ -1,0 +1,88 @@
+.wrapper{
+    display: table;
+    background-color: grey;
+    text-align: center;
+}
+
+.image-empty{
+    display: table-cell;
+}
+
+.image-class{
+    /* background-image: url('D:/dslr_vipul/IMG_6878.JPG'); */
+    
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+}
+.image-src1{
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('D:/dslr_vipul/IMG_6878.JPG');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.image-src2{
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('D:/dslr_vipul/IMG_6879.JPG');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.image-src3{
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('D:/dslr_vipul/IMG_6880.JPG');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.image-src4{
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('D:/dslr_vipul/IMG_6885.JPG');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.image-src5{
+    
+    display: table-cell;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url('D:/dslr_vipul/IMG_6882.JPG');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+
+.dot {
+    position: relative;
+    top: 500px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+ 
